@@ -10,7 +10,7 @@ The `user_key` is the user's private key. The user key should never be shared pu
 
 #### User ID
 
-The `user_id` is derived from the user's public key, and is the public user identifier. Other parties can grant a user permission to a secret based on their user id.&#x20;
+The `user_id` is derived from the user's public key and serves as their public identifier. Other parties can grant a user permission to a secret based on their user id.&#x20;
 
 ### Programs
 
@@ -46,11 +46,11 @@ The `store_id` is the identifier for a set of one or more named secret values st
 
 #### Secret Name
 
-The `secret_name` is a user given name for a single secret value.
+The `secret_name` is a name given by the user for a single secret value.
 
 ### Permissions
 
-Permissions are access control mechanisms attached to a secret stored in the network
+Permissions are access control mechanisms associated with to a secret stored in the network
 
 #### Default Permissions
 
